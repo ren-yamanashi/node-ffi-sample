@@ -1,4 +1,4 @@
-const { Library } = require("ffi-napi");
+import { Library } from "ffi-napi";
 
 const LIBRARY_FILE = "lib/target/binding";
 
