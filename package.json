@@ -4,9 +4,8 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "dev": "npm run build && npm run compile && npm run start",
-    "start": "node dist/index.js",
-    "compile": "npx tsc",
+    "dev": "npm run build && npm run start",
+    "start": "node src/index.js",
     "build": "make"
   },
   "volta": {
@@ -17,9 +16,5 @@
     "ffi-napi": "^4.0.3"
   },
   "author": "ren-yamanashi <pinokionigg@icloud.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "@types/ffi-napi": "^4.0.7",
-    "typescript": "^5.1.6"
-  }
+  "license": "MIT"
 }
